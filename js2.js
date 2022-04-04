@@ -10,6 +10,7 @@ var password = "1234";
 var confirm_Password = "1234";
 var course_count = 0;
 var is_logged_in_from_google = false;
+var country = "India";
 
 // console.log(Full_name);
 
@@ -20,6 +21,6 @@ console.log(`
     Name : ${Full_name}
     email id : ${email}
     password : ${password}
-
+    Your_country : ${country}
 
 `)
