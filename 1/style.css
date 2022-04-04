@@ -1,0 +1,9 @@
+button
+{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 30px;
+    align-items: center;
+}
