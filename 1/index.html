@@ -15,6 +15,14 @@
         click here
     </button>
 
-    <!-- <script src="app.js"></script> -->
+    <div class="volume_slider">
+        <div class="volume">
+            <p id="volume_show">90</p>
+            <i class="fas fa-volume" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+            <input type="range" min = "0" max="100" value="90" onchange="volume_change()">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
