@@ -13,4 +13,5 @@ function namstey(){
 var greeting = namstey();
 
 console.log(greeting);
+console.log(typeof greeting);
 console.log(namstey());
